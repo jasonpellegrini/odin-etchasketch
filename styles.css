@@ -1,8 +1,10 @@
 .squares {
-    height: 20px;
-    width: 20px;
-    border: solid 2px black;
-    background-color: gainsboro;
+    min-width: 5px;
+    min-height: 5px;
+    /*border: solid 2px black;*/
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 #grid {
@@ -11,10 +13,17 @@
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 350px;
+    height: 400px;
+    border: solid black 10px;
+    align-content: flex-start;
+
 }
 
 body {
     display: flex;
     justify-content: center;
+}
+
+button {
+    max-height: 40px;
 }
